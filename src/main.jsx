@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-function Test() {
-  return <h1>Hello DriftCart 🚀</h1>;
-}
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Test />
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );
