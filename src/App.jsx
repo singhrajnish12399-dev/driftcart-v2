@@ -1,9 +1,5 @@
 function App() {
-  return (
-    <div>
-      <h1>DriftCart Working ✅</h1>
-    </div>
-  );
+  return <h1>App Working ✅</h1>;
 }
 
 export default App;
